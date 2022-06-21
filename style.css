@@ -19,7 +19,6 @@ body {
     transform-style: preserve-3d;
     transform: rotateX(-30deg) translatey(0px);
     animation: animate 4s linear infinite;
-    
 }
 .cube2 {
     position: relative;
@@ -36,7 +35,6 @@ body {
     transform-style: preserve-3d;
     transform: rotateX(-30deg) translatey(0px);
     animation: animate 4s linear infinite;
-    
 }
 @keyframes animate 
 {
@@ -66,17 +64,17 @@ body {
 .float
 {
     animation: floatation 6s ease-in-out infinite;
-   
+    animation-delay: 3250ms;
 }
 .float2
 {
     animation: floatation 6s ease-in-out infinite;
-    animation-delay: 5000ms;
+   
 }
 .float3
 {
     animation: floatation 6s ease-in-out infinite;
-    animation-delay: 10000ms;
+    animation-delay: 4500ms;
 }
 .cube div {
     position:absolute;
